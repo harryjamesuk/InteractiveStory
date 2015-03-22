@@ -1,9 +1,11 @@
-package com.harryjamesuk.interactivestory;
+package com.harryjamesuk.interactivestory.ui;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+
+import com.harryjamesuk.interactivestory.R;
 
 
 public class StoryActivity extends Activity {

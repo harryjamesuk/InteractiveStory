@@ -37,4 +37,13 @@ public class MainActivity extends Activity {
         intent.putExtra(getString(R.string.key_name), name);
         startActivity(intent);
     }
+
+/*
+// Optional code if you want to clear out the name text.
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        mNameField.setText("");
+    }*/
 }
